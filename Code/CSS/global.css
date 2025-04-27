@@ -1,6 +1,20 @@
 @import url('fonts.css');
 
-/* Div */
+/* Body */
+.body_style
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Division (Grouping) */
 .div_style 
 {
     width: 300px;
@@ -16,22 +30,8 @@
     font-size: 18px;
     color: darkblue;
 }
-
-/* Body */
-.body_style
-{
-    margin: 0;
-    padding: 0;
-    font-family: 'MyCustomFont', sans-serif;
-    font-size: 16px;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.5;
-    text-align: center;
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
-}
  
-/* Section */ 
+/* Section (Logic) */ 
 .section_style
 {
     margin: 20px;
@@ -46,7 +46,7 @@
     text-align: left;
 }
   
-/* Paragraph */ 
+/* Paragraph (Text) */ 
 .p_style 
 {
   color: #333;
@@ -62,7 +62,7 @@
   border-radius: 5px;
 }
 
-/* Anchor */ 
+/* Anchor (Link) */ 
 
     .a_style:link 
     {
