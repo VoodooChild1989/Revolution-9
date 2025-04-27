@@ -1,0 +1,16 @@
+/* Custom Fonts */
+@font-face 
+{
+    font-family: 'MyCustomFont';
+    src: url('../../Fonts/BelongFaith-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'MyCustomFont2';
+    src: url('../../Fonts/Headlinerno_45rusbylyajka.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

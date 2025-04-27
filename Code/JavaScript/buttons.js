@@ -5,5 +5,5 @@ const name = "Alice";
 // Functions //
 function greet(name) 
 {
-    console.log("Hello, " + name);
+    alert("Hello from External JS! " + name);
 }
