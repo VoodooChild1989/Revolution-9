@@ -4,7 +4,7 @@
 body 
 {
     text-align: center;
-    background-image: url('../../Images/Background.jpg');
+    background: linear-gradient(180deg, #121212, #470041);
     background-size: cover;
     background-position: center;
     animation: slideBackground 1s forwards;
@@ -102,6 +102,17 @@ img
     max-height: 350px;
     width: auto; 
     height: auto;
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+.img_logo
+{
+    max-width: 100%; 
+    max-height: 300px;
+    width: auto; 
+    height: auto;
+    margin-top: -3em;
+    margin-bottom: -3em;
 }
 
 div 
@@ -109,6 +120,17 @@ div
     padding: 6px;
     margin: 10px 0;
 }
+.row {
+    display: flex;
+  }
+  
+.box {
+width: 100px;
+height: 100px;
+background-color: #bb86fc;
+margin: 10px;
+}
+
 
 .flexible
 {
@@ -117,71 +139,6 @@ div
     align-items: center; 
     gap: 30px;
 }
-
-/* Animations */ 
-/* Class for rotation only */
-    .scale
-    {
-        transition: transform 0.3s ease;
-    }
-    .scale:hover
-    {
-        transform: scale(1.1);
-    }
-
-    .rotatable 
-    {
-        display: inline-block;
-        transition: transform 0.5s ease;
-    }
-    .rotatable.scale 
-    {
-        display: inline-block;
-        transition: transform 0.5s ease;
-    }
-    .rotatable:hover 
-    {
-        transform: rotate(360deg);
-    }
-    .rotatable.scale:hover 
-    {
-        transform: rotate(360deg) scale(1.1);
-    }
-
-    @keyframes slideInFadeIn 
-    {
-        from 
-        {
-            transform: translateY(100%); 
-            opacity: 0;
-        }
-        to 
-        {
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
-    .fade-in-image 
-    {
-        animation: slideInFadeIn 1s ease-out;
-    }
-
-    @keyframes slideFade 
-    {
-        from 
-        {
-            opacity: 0;
-        }
-        to 
-        {
-            opacity: 1;
-        }
-    }
-    .fade-image 
-    {
-        animation: slideFade 2s ease-out;
-    }
-/* Animations End */ 
 
 .container
 {
@@ -269,12 +226,12 @@ div
 /* Button */ 
     .button_style
     {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        font-size: 16px;
-        font-family: Arial, sans-serif;
-        border: 2px solid #4CAF50;
+        background-color: #03dac6;
+        color: #ffffff;
+        padding: 5px 10px;
+        font-size: 24px;
+        font-family: 'MyCustomFont', sans-serif;
+        border: 2px solid #02c1ae;
         border-radius: 5px;
         cursor: pointer;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -282,18 +239,18 @@ div
     }
     .button_style:hover 
     {
-        background-color: #45a049;
+        background-color: #01a696;
     }
     .button_style:active 
     {
-        background-color: #3e8e41;
-        box-shadow: 0 5px #666;
+        background-color: #00f1d9;
+        box-shadow: 0 5px #005b52;
         transform: translateY(4px); 
     }
     .button_style:focus 
     {
         outline: none;
-        border: 2px solid #333;
+        border: 2px solid #005b52;
     }
     .button_style:disabled 
     {
@@ -308,7 +265,6 @@ div
     {
         width: 50%;
         margin: 20px auto;
-        background-color: #f0f0f0;
         border-radius: 10px;
         padding: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
