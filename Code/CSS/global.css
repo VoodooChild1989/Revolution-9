@@ -106,7 +106,15 @@ div
     background-color: #fdfdfd;
     border-radius: 10px;    
     border: 5px solid #0a0a0a;
-    box-shadow: 8px 8px 0 #0a0a0a;
+    box-shadow: 
+        1px 1px 0 #0a0a0a,
+        2px 2px 0 #0a0a0a,
+        3px 3px 0 #0a0a0a,
+        4px 4px 0 #0a0a0a,
+        5px 5px 0 #0a0a0a,
+        6px 6px 0 #0a0a0a,
+        7px 7px 0 #0a0a0a,
+        8px 8px 0 #0a0a0a;
 }
 
 .flexible
