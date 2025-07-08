@@ -1,9 +1,8 @@
 @import url('fonts.css');
 
 /* Body */
-body, html 
+body 
 {
-    /* background: url('../../Images/Pattern.png') no-repeat center center fixed; */
     margin: 0;
     padding: 0;
     height: 100%;
@@ -11,7 +10,8 @@ body, html
 }
 
 /* The animated infinite background */
-.background {
+.background 
+{
   position: fixed;
   top: -10px;
   left: 0;
@@ -25,12 +25,15 @@ body, html
   animation: scroll-bg 30s linear infinite;
 }
 
-@keyframes scroll-bg {
-  0% {
+@keyframes scroll-bg 
+{
+  0% 
+  {
     background-position: 0 0;
   }
-  100% {
-    background-position: -2000px 2000px;
+  100% 
+  {
+    background-position: -1000px 1000px;
   }
 }
 
@@ -38,43 +41,43 @@ body, html
     /* Main page title */    
     h1 
     {
-        margin-top: 0;
-        margin-bottom: 0.3em;
+        margin-top: 0em;
+        margin-bottom: 0em;
         font-size: 64px; 
     }
     /* Section title */
     h2  
     {
-        margin-top: 0.5em;
-        margin-bottom: 0.2em;
+        margin-top: 0em;
+        margin-bottom: 0em;
         font-size: 40px;
     }
     /* Subsection title */ 
     h3 
     { 
-        margin-top: 0.5em;
-        margin-bottom: 0.2em;
+        margin-top: 0em;
+        margin-bottom: 0em;
         font-size: 32px; 
     }
     /* Smaller subsection */ 
     h4 
     {
-        margin-top: 0.5em;
-        margin-bottom: 0.2em;
+        margin-top: 0em;
+        margin-bottom: 0em;
         font-size: 24px;
     }
     /* Minor heading */
     h5 
     {
-        margin-top: 0.5em;
-        margin-bottom: 0.2em;
+        margin-top: 0em;
+        margin-bottom: 0em;
         font-size: 20px; 
     }
     /* Smallest heading */
     h6 
     {
-        margin-top: 0.5em;
-        margin-bottom: 0.2em;
+        margin-top: 0em;
+        margin-bottom: 0em;
         font-size: 16px; 
     }
 /* Header End */ 
@@ -82,8 +85,8 @@ body, html
 /* Paragraph */
 p
 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
     font-size: 16px;
 }
 
@@ -129,7 +132,7 @@ div
 {
     display: flex;
 }  
-.box 
+.block 
 {
     background-color: #fdfdfd;
     border-radius: 10px;    
