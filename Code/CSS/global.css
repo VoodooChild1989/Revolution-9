@@ -21,7 +21,7 @@ body
 
   background-repeat: repeat;
   background-size: 100px 100px;
-  animation: scroll-bg 30s linear infinite;
+  animation: scroll-bg 60s linear infinite;
 }
 
 @keyframes scroll-bg 
@@ -32,7 +32,7 @@ body
   }
   100% 
   {
-    background-position: -1000px 1000px;
+    background-position: -2000px 2000px;
   }
 }
 
@@ -79,7 +79,7 @@ body
         margin-bottom: 0em;
         font-size: 16px; 
     }
-/* Header End */ 
+/* Header end */ 
 
 /* Paragraph */
 p
@@ -88,29 +88,15 @@ p
     margin-bottom: 0em;
     font-size: 16px;
 }
+/* Paragraph end */
 
-/* Anchor (Link) */ 
-    a 
+/* Text */ 
+    .default_text
     {
-        transition: color 0.3s ease;    
+        font-family: 'DefaultFont', sans-serif;
+        color: #0a0a0a;
     }
-    a:link 
-    {
-        color: #bf00ff;
-    }
-    a:visited 
-    {
-        color: #9900cc;
-    }
-    a:hover 
-    {
-        color: #00ffff;
-    }
-    a:active 
-    {
-        color: #ff1493;
-    }
-/* Anchor End */ 
+/* Text End */ 
 
 img
 {
@@ -123,13 +109,13 @@ img
 }
 .floating-image 
 {
-  position: absolute;   /* or 'fixed' for full-page */
+  position: absolute; 
   top: 20px;
   left: 30px;
   width: 100px;
   height: auto;
-  pointer-events: all; /* Optional: allows clicks to pass through */
-  z-index: -1;           /* Optional: control layering */
+  pointer-events: all;
+  z-index: -1;          
 }
 
 div 
@@ -173,48 +159,42 @@ div
     line-height: 1.5;
     text-align: left;
 }
-  
-/* Text */ 
-    .default_text
-    {
-        font-family: 'DefaultFont', sans-serif;
-        color: #0a0a0a;
-    }
-/* Text End */ 
 
 /* Button */ 
     .button_style
-    {
-        background-color: #03dac6;
-        color: #ffffff;
-        padding: 5px 10px;
-        font-size: 24px;
-        font-family: 'MyCustomFont', sans-serif;
-        border: 2px solid #02c1ae;
-        border-radius: 5px;
-        cursor: pointer;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s, box-shadow 0.3s;
+    {    
+        transition: transform 0.1s ease, background-color 0.1s ease;
     }
     .button_style:hover 
     {
-        background-color: #01a696;
+        transform: scale(1.1);
     }
     .button_style:active 
     {
-        background-color: #00f1d9;
-        box-shadow: 0 5px #005b52;
-        transform: translateY(4px); 
+        background-color: #e0e0e0;
+        transform: scale(0.95);
     }
-    .button_style:focus 
-    {
-        outline: none;
-        border: 2px solid #005b52;
-    }
-    .button_style:disabled 
-    {
-        background-color: #ccc;
-        color: #666;
-        cursor: not-allowed;
-    }  
 /* Button End */ 
+
+/* Anchor (Link) */ 
+    a 
+    {
+        transition: color 0.3s ease;    
+    }
+    a:link 
+    {
+        color: #bf00ff;
+    }
+    a:visited 
+    {
+        color: #9900cc;
+    }
+    a:hover 
+    {
+        color: #e60012;
+    }
+    a:active 
+    {
+        color: #ff1493;
+    }
+/* Anchor End */ 
