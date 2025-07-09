@@ -20,7 +20,7 @@ body
   z-index: -1;
 
   background-repeat: repeat;
-  background-size: cover;
+  background-size: 100px 100px;
   animation: scroll-bg 30s linear infinite;
 }
 
@@ -68,8 +68,8 @@ body
     /* Minor heading */
     h5 
     {
-        margin-top: 0em;
-        margin-bottom: 0em;
+        margin-top: -0.3em;
+        margin-bottom: 0.2em;
         font-size: 20px; 
     }
     /* Smallest heading */
@@ -121,6 +121,16 @@ img
     margin-top: 0;
     margin-bottom: 0em;
 }
+.floating-image 
+{
+  position: absolute;   /* or 'fixed' for full-page */
+  top: 20px;
+  left: 30px;
+  width: 100px;
+  height: auto;
+  pointer-events: all; /* Optional: allows clicks to pass through */
+  z-index: 1;           /* Optional: control layering */
+}
 
 div 
 {
@@ -129,6 +139,7 @@ div
 }
 .block 
 {
+    display: inline-block;
     background-color: #fdfdfd;
     border-radius: 10px;    
     border: 5px solid #0a0a0a;
