@@ -129,7 +129,7 @@ img
   width: 100px;
   height: auto;
   pointer-events: all; /* Optional: allows clicks to pass through */
-  z-index: 1;           /* Optional: control layering */
+  z-index: -1;           /* Optional: control layering */
 }
 
 div 
