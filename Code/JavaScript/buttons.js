@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   transitionEl.classList.add("show");
   setTimeout(() => {
     transitionEl.classList.remove("show");
-  }, 800);
+  }, 500);
 
   // Handle transitions for buttons and links
   document.querySelectorAll("button[data-href], a[href]").forEach(el => {
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         transitionEl.classList.add("hide");
         setTimeout(() => {
           window.location.href = href;
-        }, 800);
+        }, 500);
       }
     });
   });

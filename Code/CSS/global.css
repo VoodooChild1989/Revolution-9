@@ -32,7 +32,7 @@ body
   }
   100% 
   {
-    background-position: -2000px 2000px;
+    background-position: -1750px 1750px;
   }
 }
 
@@ -210,7 +210,7 @@ div
   background-color: black;
   z-index: 9999;
   transform: translateY(100%);
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   pointer-events: none;
 }
 
