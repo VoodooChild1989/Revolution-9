@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'DefaultFont';
-    src: url('../../Fonts/Nunito-SemiBold.ttf') format('truetype');
+    /* src: url('../../Fonts/Nunito-SemiBold.ttf') format('truetype'); */
     font-weight: normal;
     font-style: normal;
 }
