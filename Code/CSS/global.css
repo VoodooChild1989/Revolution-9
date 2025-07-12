@@ -50,35 +50,35 @@ body
     {
         margin-top: 0em;
         margin-bottom: 0em;
-        font-size: 40px;
+        font-size: 50px;
     }
     /* Subsection title */ 
     h3 
     { 
         margin-top: 0em;
         margin-bottom: 0em;
-        font-size: 30px; 
+        font-size: 40px; 
     }
     /* Smaller subsection */ 
     h4 
     {
         margin-top: -0.3em;
         margin-bottom: -0.1em;
-        font-size: 24px;
+        font-size: 34px;
     }
     /* Minor heading */
     h5 
     {
         margin-top: -0.3em;
         margin-bottom: 0.2em;
-        font-size: 18px; 
+        font-size: 30px; 
     }
     /* Smallest heading */
     h6 
     {
         margin-top: 0em;
         margin-bottom: 0em;
-        font-size: 16px; 
+        font-size: 28px; 
     }
 /* Header end */ 
 
@@ -87,7 +87,7 @@ p
 {
     margin-top: 0em;
     margin-bottom: 0em;
-    font-size: 18px;
+    font-size: 24px;
 }
 /* Paragraph end */
 
