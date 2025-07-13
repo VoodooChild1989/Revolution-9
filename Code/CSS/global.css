@@ -128,6 +128,27 @@ img
   pointer-events: all;
   z-index: -1;          
 }
+.poster
+{
+    position: relative;
+    vertical-align: top;
+    border: 7px solid #0a0a0a;
+    transform: rotate(-2deg);
+}
+.poster:hover
+{
+    border: 9px solid #0a0a0a;
+    transform: rotate(1deg);
+    z-index: 10;        
+}
+.poster-grid 
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  align-items: start; /* Aligns all images to the top */
+  justify-items: center;
+}
 
 div 
 {
