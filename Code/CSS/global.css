@@ -133,16 +133,17 @@ img
     box-sizing: border-box;
     position: relative;
     vertical-align: top;
-    border: 6px solid #0a0a0a;
+    border: 8px solid #0a0a0a;
     border-radius: 1px;    
     transform: rotate(-2deg);
     box-shadow: 
         1px 1px 0 #0a0a0a,
-        2px 2px 0 #0a0a0a;
+        2px 2px 0 #0a0a0a,
+        3px 3px 0 #0a0a0a;
 }
 .poster:hover
 {
-    border: 7px solid #0a0a0a;
+    border: 9px solid #0a0a0a;
     transform: rotate(1deg);
     z-index: 10;        
     box-shadow: 
@@ -172,7 +173,7 @@ div
     display: inline-block;
     background-color: #fdfdfd;
     border-radius: 1px;    
-    border: 5px solid #0a0a0a;
+    border: 7px solid #0a0a0a;
     transform: rotate(-1deg);
     box-shadow: 
         1px 1px 0 #0a0a0a,
