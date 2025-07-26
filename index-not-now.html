@@ -33,9 +33,33 @@
   <!-- Body -->
   <body>
 
+    <!-- Decorations -->
+    <section>
+
+      <!-- Transition -->
+      <div id="page-transition" class="page-transition"></div>
+
+      <!-- Background -->
+      <div class="background" style="background-image: url('Images/Pattern_Red.png');"></div>  
+
+      <!-- Icons -->
+      <div style="margin-bottom: -2em;">
+        <img class="floating-image rotating" src="Images/Chamber.png" alt="Icon" style="width: 13%; top: 175px; left: 60px;"/> 
+        <img class="floating-image rotating" src="Images/Bullet.png" alt="Icon" style="width: 13%; top: 475px; left: 60px;"/> 
+        <img class="floating-image rotating" src="Images/Skull.png" alt="Icon" style="width: 13%; top: 775px; left: 60px;"/> 
+        <img class="floating-image rotating" src="Images/Skull.png" alt="Icon" style="width: 13%; top: 175px; left: 1430px;"/> 
+        <img class="floating-image rotating" src="Images/Bullet.png" alt="Icon" style="width: 13%; top: 475px; left: 1430px;"/> 
+        <img class="floating-image rotating" src="Images/Chamber.png" alt="Icon" style="width: 13%; top: 775px; left: 1430px;"/> 
+      </div>
+
+    </section>
+
     <!-- Top -->
     <div style="margin-top: 1em;"> 
     
+      <!-- Shadow -->
+      <img style="position: absolute; height: 100%; max-height: 1080px; width: 100%; max-width: 1920px; top: 0%; left: 0%; z-index: -1;" src="Images/Top.png" alt="Icon"/> 
+      
       <!-- Buttons -->
       <div style="display: flex; justify-content: center; gap: 30px;">
         <button data-href="index.html" class="block button_style">
@@ -143,6 +167,10 @@
         </footer>
         
       </div>
+
+      <!-- Shadow -->
+      <img style="position: absolute; height: 100%; max-height: 1080px; width: 100%; max-width: 1920px; bottom: -50%; left: 0%; z-index: -1;" src="Images/Bottom.png" alt="Icon"/> 
+
     </div>
     
   </body>
