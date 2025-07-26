@@ -133,9 +133,8 @@ img
     box-sizing: border-box;
     position: relative;
     vertical-align: top;
-    border: 8px solid #0a0a0a;
     border-radius: 1px;    
-    /* transform: rotate(-2deg); */
+    border: 8px solid #0a0a0a;
     box-shadow: 
         1px 1px 0 #0a0a0a,
         2px 2px 0 #0a0a0a,
@@ -143,22 +142,59 @@ img
 }
 .poster:hover
 {
-    border: 9px solid #0a0a0a;
-    transform: rotate(1deg);
     z-index: 10;        
-    box-shadow: 
+    border: 9px solid #0a0a0a;
+    box-shadow:
         1px 1px 0 #0a0a0a,
         2px 2px 0 #0a0a0a,
         3px 3px 0 #0a0a0a,
-        4px 4px 0 #0a0a0a,
-        5px 5px 0 #0a0a0a,
-        6px 6px 0 #0a0a0a;
+        4px 4px 0 #0a0a0a;
 }
+/* Tablet */
+@media (max-width: 1023px) 
+{
+    .poster 
+    {
+        border: 8px solid #0a0a0a;
+        box-shadow: 
+            1px 1px 0 #0a0a0a,
+            2px 2px 0 #0a0a0a,
+            3px 3px 0 #0a0a0a;
+    }
+    .poster:hover 
+    {
+        border: 9px solid #0a0a0a;
+        box-shadow:
+            1px 1px 0 #0a0a0a,
+            2px 2px 0 #0a0a0a,
+            3px 3px 0 #0a0a0a,
+            4px 4px 0 #0a0a0a;
+    }
+}
+
+/* Phone */
+@media (max-width: 767px) 
+{
+    .poster 
+    {
+        border: 5px solid #0a0a0a;
+        box-shadow: 
+            1px 1px 0 #0a0a0a;
+    }
+    .poster:hover 
+    {
+        border: 6px solid #0a0a0a;
+        box-shadow: 
+            1px 1px 0 #0a0a0a,
+            2px 2px 0 #0a0a0a;
+    }
+}
+
 .poster-grid 
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 8px;
     align-items: start;
     justify-items: center;
 }
