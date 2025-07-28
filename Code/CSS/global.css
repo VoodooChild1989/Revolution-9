@@ -90,8 +90,10 @@ body
 /* Paragraph */
 p
 {
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
     font-size: 24px;
 }
 /* Paragraph end */
@@ -116,6 +118,7 @@ img
 }
 .openable-image 
 {
+    top: 0;
     /* transform: rotate(1deg) rotate(0deg);    */
 }
 .floating-image 
