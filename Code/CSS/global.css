@@ -211,6 +211,7 @@ div
 {
     display: inline-block;
     background-color: #fdfdfd;
+    padding: 0px 5px;
     border-radius: 1px;    
     border: 7px solid #0a0a0a;
     box-shadow: 
